@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+#nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    opacity: 0.6;
+    margin-left: 40px;
+    line-height: 1;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#heading #sech1{
+    margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+}
+.blocktext h3{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#chhotiheading{
+    margin-top: 100px;
+    padding-right: 30px;
+}
+#chhotiheading h5{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+#herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 3%;
+    position: absolute;
+    width: 100%;
+    padding: 0 2vw ;
+}
+#herofooter a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 10px;
+}
+
+#herofooter .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+}
